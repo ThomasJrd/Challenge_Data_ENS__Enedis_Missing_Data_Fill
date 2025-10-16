@@ -1,0 +1,29 @@
+# Manipulation de données
+numpy==1.26.4
+pandas
+
+# Visualisation (optionnel pour l'analyse)
+matplotlib
+seaborn
+jupyter
+
+# Interpolation avancée
+scipy
+
+# Modèles statistiques pour séries temporelles
+statsmodels  # Pour ARIMA, SARIMA, etc.
+#pmdarima
+
+# Machine Learning classique
+scikit-learn  # Pour régressions, KNN, et validation croisée
+xgboost  # Pour les modèles de boosting
+
+# Deep Learning (si on veut tester LSTMs ou Transformers)
+torch  # Alternative avec PyTorch si préféré
+transformers
+pytorch-forecasting
+pypots
+
+# Gestion de fichiers volumineux (optionnel)
+dask  # Utile si on veut paralléliser le traitement de gros fichiers
+joblib

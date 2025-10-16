@@ -1,0 +1,47 @@
+Écart-type local
+Autocorrélation
+Lags temporels
+SMA
+EWMA
+
+Moyenne historique  
+Médiane historique  
+Quartiles (Q1, Q3)  
+Mode 
+Variance  
+Skewness et kurtosis (asymétrie et aplatissement)  
+Min, max  
+Ratio entre consommation de pointe et consommation moyenne  
+Nombre de pics de consommation 
+
+Corrélations avec d’autres consommateurs  
+Clustering (K-Means, DBSCAN)
+Interpolation à partir des courbes proches  
+Moyenne pondérée des voisins les plus proches  
+Graph Neural Networks (GNNs)
+
+Transformée de Fourier (FFT)  
+Wavelet Transform
+
+
+voir github avec thomas
+nettoyer code folder
+noter resultat obtenu dans un excel
+ajout checkpoint
+tester getML
+ajout STL
+ajout prediction KNN
+ajout SARIMA
+ajout Clustering
+
+
+16 avril : similarité entre les courbes
+
+Tester SAITS avec et sans feature enginering
+tester TimesNet & TimeMixer++
+
+30 mai:
+
+faire xgboost avec du feature enigenring (knn, ema, variance, lag)
+tester mini_saits sans ajout de noise
+finir config hydra
